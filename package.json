@@ -71,7 +71,7 @@
     "sass": "^1.80.4"
   },
   "devDependencies": {
-    "@docusaurus/eslint-plugin": "^3.5.2",
+    "@docusaurus/eslint-plugin": "^3.9.2",
     "@docusaurus/module-type-aliases": "^3.5.2",
     "@docusaurus/plugin-client-redirects": "^3.9.2",
     "@docusaurus/tsconfig": "^3.5.2",
