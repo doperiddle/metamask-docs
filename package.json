@@ -80,7 +80,7 @@
     "@tsconfig/docusaurus": "^1.0.5",
     "@types/react-alert": "^7.0.6",
     "@types/react-modal": "^3.16.3",
-    "@typescript-eslint/parser": "^8.6.0",
+    "@typescript-eslint/parser": "^8.50.1",
     "eslint": "^9.0.0",
     "eslint-plugin-react": "^7.37.1",
     "stylelint": "^16.1.0",
