@@ -74,7 +74,7 @@
     "@docusaurus/eslint-plugin": "^3.9.2",
     "@docusaurus/module-type-aliases": "^3.5.2",
     "@docusaurus/plugin-client-redirects": "^3.9.2",
-    "@docusaurus/tsconfig": "^3.5.2",
+    "@docusaurus/tsconfig": "^3.9.2",
     "@docusaurus/types": "^3.9.2",
     "@eslint/js": "^8.57.1",
     "@tsconfig/docusaurus": "^1.0.5",
