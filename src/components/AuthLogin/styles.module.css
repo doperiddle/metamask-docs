@@ -55,22 +55,14 @@
   width: 60px;
   height: 60px;
   animation: rotating 3s linear infinite;
-  animation: rotating 3s linear infinite;
-  animation: rotating 3s linear infinite;
-  animation: rotating 3s linear infinite;
-  animation: rotating 3s linear infinite;
 }
 
 @keyframes spinner /* Safari and Chrome */ {
   from {
     transform: rotate(360deg);
-    transform: rotate(360deg);
-    transform: rotate(360deg);
   }
 
   to {
-    transform: rotate(-360deg);
-    transform: rotate(-360deg);
     transform: rotate(-360deg);
   }
 }
@@ -78,17 +70,9 @@
 @keyframes rotating {
   from {
     transform: rotate(360deg);
-    transform: rotate(360deg);
-    transform: rotate(360deg);
-    transform: rotate(360deg);
-    transform: rotate(360deg);
   }
 
   to {
-    transform: rotate(-360deg);
-    transform: rotate(-360deg);
-    transform: rotate(-360deg);
-    transform: rotate(-360deg);
     transform: rotate(-360deg);
   }
 }

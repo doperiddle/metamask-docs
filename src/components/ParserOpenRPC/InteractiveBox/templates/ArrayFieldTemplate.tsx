@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from "react";
+import React, { type ReactElement, useContext, useEffect, useState } from "react";
 import { useCollapsible, Collapsible } from "@docusaurus/theme-common";
 import { ArrayFieldTemplateProps } from "@rjsf/utils";
 import { BaseInputTemplate } from "@site/src/components/ParserOpenRPC/InteractiveBox/templates/BaseInputTemplate";
@@ -137,8 +137,10 @@ export const ArrayFieldTemplate = ({
         <Collapsible lazy collapsed={collapsed}>
           <>
             {items.map((el, i) => {
+              // eslint-disable-next-line @typescript-eslint/no-explicit-any
+              const childProps = (el.children as ReactElement<any>).props;
               const baseInputTemplateProps = {
-                ...el.children.props,
+                ...childProps,
                 isArray: true,
                 value: formData[i] || null,
               };

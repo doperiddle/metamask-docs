@@ -1,4 +1,4 @@
-import React, { ReactNode } from "react";
+import React, { type JSX, ReactNode } from "react";
 import clsx from "clsx";
 import Link from "@docusaurus/Link";
 import Heading from "@theme/Heading";
