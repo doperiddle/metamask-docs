@@ -1,4 +1,4 @@
-import React from "react";
+import React, { type JSX } from "react";
 import Heading from "@theme/Heading";
 import { MDContent } from "./MDContent";
 import { renderParamSchemas, renderResultSchemas } from "./RenderParams";

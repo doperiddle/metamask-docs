@@ -1,4 +1,4 @@
-import React from "react";
+import React, { type JSX } from "react";
 import Card, { type CardItem } from "@site/src/components/Card";
 import styles from "./cardsection.module.css";
 

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { type JSX } from "react";
 import Admonition from "@theme-original/Admonition";
 import { Props as AdmonitionPropsRaw } from "@theme/Admonition";
 import Link from "@docusaurus/Link";

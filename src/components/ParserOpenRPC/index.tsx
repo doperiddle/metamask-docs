@@ -1,4 +1,5 @@
 import React, {
+  type JSX,
   createContext,
   useContext,
   useMemo,

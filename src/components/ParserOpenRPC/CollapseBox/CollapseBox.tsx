@@ -5,7 +5,7 @@ import {
   useColorMode,
 } from "@docusaurus/theme-common";
 import styles from "./styles.module.css";
-import React, { useEffect } from "react";
+import React, { type JSX, useEffect } from "react";
 
 interface CollapseBoxProps {
   children: JSX.Element;

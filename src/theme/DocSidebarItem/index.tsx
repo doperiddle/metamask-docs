@@ -1,4 +1,4 @@
-import React from "react";
+import React, { type JSX } from "react";
 import DocSidebarItem from "@theme-original/DocSidebarItem";
 import type DocSidebarItemType from "@theme/DocSidebarItem";
 import type { WrapperProps } from "@docusaurus/types";
